@@ -1,4 +1,4 @@
 # simple-timer
 
 
-[link](https://akbaroke.github.io/simple-timer/?target=_blank)
+[Lets Try it](https://akbaroke.github.io/simple-timer/)
