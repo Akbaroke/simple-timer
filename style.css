@@ -3,10 +3,11 @@
 
 html,body{
   overflow: hidden;
+  margin: 0;
 }
 
 .container{
-  width: 360px;
+  max-width: 360px;
   height: 100vh;
   margin: auto;
   background-color: #091534;
