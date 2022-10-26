@@ -68,5 +68,5 @@ $('#btn-reset').click(function (e) {
   $('#menit').html("00");
   $('#jam').html("00");
   $('#btn-reset').css('display','none');
-  $('#putar').load(location.href + " #putar");
+  location.reload(true);
 });
