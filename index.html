@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>StopWatch</title>
+</head>
+<body>
+  <div class="container">
+    <div class="lingkaran-besar">
+      <div class="waktu">
+        <div id="jam">00</div>
+        <div>:</div>
+        <div id="menit">00</div>
+        <div>:</div>
+        <div id="detik">00</div>
+      </div>
+      <div class="ket">
+        <p>H</p>
+        <p>M</p>
+        <p>S</p>
+      </div>
+      <div class="tombol">
+        <button id="btn-play"><i class="fa-solid fa-play"></i></button>
+        <button id="btn-pause"><i class="fa-solid fa-pause"></i></button>
+        <button id="btn-reset"><i class="fa-solid fa-clock-rotate-left"></i></button>
+      </div>
+    </div>
+    <div id="putar"><i class="fa-solid fa-arrow-up-long"></i></div>
+  </div>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+</body>
+</html>
