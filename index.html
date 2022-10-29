@@ -17,24 +17,26 @@
   <div class="container">
     <div class="lingkaran-besar">
       <div class="waktu">
-        <div id="jam">00</div>
-        <div>:</div>
         <div id="menit">00</div>
         <div>:</div>
         <div id="detik">00</div>
+        <div>:</div>
+        <div id="mDetik">00</div>
       </div>
       <div class="ket">
-        <p>H</p>
         <p>M</p>
         <p>S</p>
+        <p>M</p>
       </div>
       <div class="tombol">
+        <button id="btn-lap"><i class="fa-solid fa-flag"></i></button>
         <button id="btn-play"><i class="fa-solid fa-play"></i></button>
         <button id="btn-pause"><i class="fa-solid fa-pause"></i></button>
         <button id="btn-reset"><i class="fa-solid fa-clock-rotate-left"></i></button>
       </div>
     </div>
     <div id="putar"><i class="fa-solid fa-arrow-up-long"></i></div>
+    <div id="lap-record"></div>
   </div>
   <script
     src="https://code.jquery.com/jquery-3.6.0.min.js"

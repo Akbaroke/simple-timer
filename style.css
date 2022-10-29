@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+}
 
 html,body{
   overflow: hidden;
@@ -63,11 +67,13 @@ html,body{
   gap: 25px;
 }
 
+#btn-lap,
 #btn-pause,
 #btn-reset{
   display: none;
 }
 
+#btn-lap,
 #btn-play,
 #btn-pause,
 #btn-reset{
@@ -107,4 +113,46 @@ html,body{
   to   { 
     transform: rotate(1turn); 
   }
+}
+
+
+#lap-record{
+  color: #fff;
+  font-size: 24px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #00E0FF;
+  text-shadow: 0px 0px 5px #00e1ffbc;
+  position: relative;
+  top: -220px;
+  letter-spacing: 2px;
+
+}
+
+#lap-record > div{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 220px;
+  height: max-content;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+#lap-record > div > p{
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 7px 0;
+  border-radius: 50%;
+}
+
+#lap-record > div > h3{
+  letter-spacing: 0.1cm;
+  display: block;
+  box-sizing: border-box;
+  padding: 5px 0;
 }
